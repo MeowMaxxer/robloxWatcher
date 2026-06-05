@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roblox-watcher"
+version = "0.1.0"
+description = "A Python library that tracks Roblox sessions from local logs"
+authors = [{ name = "MeowMaxxer" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["psutil"]
+
+[tool.setuptools]
+packages = ["roblox_watcher"]
