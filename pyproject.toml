@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "roblox-watcher"
-version = "0.1.2"
-description = "Roblox session watcher"
-requires-python = ">=3.8"
+version = "0.3.0"
+description = "Monitor active Roblox sessions via log files — no injection, no API keys"
+requires-python = ">=3.9"
 dependencies = ["psutil"]
 
 [tool.setuptools]
